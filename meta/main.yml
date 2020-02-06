@@ -1,0 +1,19 @@
+---
+
+galaxy_info:
+  author: 'Lise Machetel'
+  description: 'Ansible role to install and configure sentinel_exporter'
+  company: 'Temelio (https://temelio.com)'
+  license: 'MIT'
+  min_ansible_version: '2.6'
+  github_branch: 'master'
+  platforms:
+    - name: 'Ubuntu'
+      versions:
+        - 'xenial'
+        - 'bionic'
+        - 'eoan'
+  galaxy_tags:
+    - 'system'
+    - 'monitoring'
+dependencies: []
